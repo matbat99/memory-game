@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
   //check for matches
   function checkForMatch() {
     let cards = document.querySelectorAll('.flip-container')
-    console.log(cards)
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]) {
