@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/sheep.png'
     },
   ]
-
+  // allen should remove this comment
+  
   const cardArray=singleCards.concat(singleCards).sort(() => 0.5 - Math.random())
 
   const grid = document.querySelector('.grid')
